@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "ship7software",
+      "authorEmail": "ship7software@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
