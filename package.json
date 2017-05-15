@@ -1,0 +1,42 @@
+{
+  "name": "mongoose-dal",
+  "version": "1.0.0",
+  "description": "Facade e Controller Ship7",
+  "homepage": "",
+  "author": {
+    "name": "ship7software",
+    "email": "ship7software@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "https://github.com/ship7software/mongoose-dal.git",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT"
+}
